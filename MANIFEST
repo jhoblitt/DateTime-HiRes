@@ -1,0 +1,11 @@
+Build.PL
+Changes
+LICENSE
+MANIFEST
+Makefile.PL
+README
+Todo
+lib/DateTime/HiRes.pm
+lib/DateTime/HiRes.pod
+t/01_load.t
+t/02_now.t
