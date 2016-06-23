@@ -32,5 +32,5 @@ use DateTime::HiRes;
             );
 
     is( $dt->time_zone_long_name, 'Africa/Cairo', "accepted time_zone parameter" );
-    is( $dt->locale->id, 'ar_EG', "accepted locale parameter" );
+    like( $dt->locale->id, qr'ar[_-]EG', "accepted locale parameter" );
 }
